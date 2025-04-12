@@ -1,5 +1,5 @@
 // API anahtarı
-const API_KEY = 'AIzaSyCQTZUp4JPJcSJGqyNwJllkxVT3d0z5AkM';
+const API_KEY = 'enter your api key here';
 
 // Gemini API URL'i
 const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
