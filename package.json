@@ -1,0 +1,26 @@
+{
+  "name": "ai-kitap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "axios": "^1.8.4",
+    "daisyui": "^5.0.9",
+    "jsdom": "^26.0.0",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
+    "next": "15.2.3",
+    "pdfmake": "^0.2.18",
+    "pdfmake-unicode": "^0.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
+    "xmldom": "^0.6.0"
+  }
+}

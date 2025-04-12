@@ -1,0 +1,94 @@
+/* Genre selection styles */
+.genre-radio {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.genre-label {
+  display: block;
+  padding: 1rem;
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 100%;
+}
+
+.genre-radio:checked + .genre-label {
+  border: 2px solid var(--color-primary);
+  background-color: rgba(79, 70, 229, 0.05);
+}
+
+.genre-radio:focus + .genre-label {
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
+}
+
+.genre-label:hover {
+  background-color: var(--color-gray-100);
+}
+
+.genre-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.genre-desc {
+  font-size: 0.875rem;
+  color: var(--color-gray-600);
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Spinner animation for loading state */
+.spinner {
+  animation: spin 1s linear infinite;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+.spinner-circle {
+  opacity: 0.25;
+}
+
+.spinner-path {
+  opacity: 0.75;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.grid-cols-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-height: 550px;
+  overflow-y: auto;
+}
+
+/* Tür seçimi grid'i */
+@media (max-width: 768px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+} 

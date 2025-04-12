@@ -1,0 +1,85 @@
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-gray-100);
+}
+
+.main-header {
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.app-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--color-gray-900);
+}
+
+.app-subtitle {
+  color: var(--color-gray-600);
+}
+
+.main-content {
+  flex: 1;
+  padding: 3rem 0;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--color-gray-900);
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  color: var(--color-gray-500);
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.error-container {
+  background-color: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.5);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin-top: 2rem;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error-title {
+  color: var(--color-error);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.error-message {
+  color: var(--color-gray-700);
+}
+
+.main-footer {
+  background-color: white;
+  border-top: 1px solid var(--color-gray-200);
+  padding: 1.5rem 0;
+}
+
+.copyright {
+  text-align: center;
+  color: var(--color-gray-500);
+  font-size: 0.875rem;
+} 
