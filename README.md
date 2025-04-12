@@ -1,4 +1,4 @@
-# 📚 AI-Powered eBook Generator
+# 📚 AI-Powered eBook Generator [BETA]
 
 A web-based application that uses artificial intelligence to generate and export eBooks in various formats (PDF, ePub, TXT, etc.) based on user-defined topics, genres, and styles.
 
