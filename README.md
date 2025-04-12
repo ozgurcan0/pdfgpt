@@ -15,7 +15,7 @@ A web-based application that uses artificial intelligence to generate and export
 
 - **Frontend**: React / Next.js / Tailwind CSS  
 - **Backend**: Node.js
-- **AI**: OpenAI GPT or local LLMs (optional support) 
+- **AI**: Gemini 2.0 or local LLMs (optional support) 
 
 ## 🧪 Demo & Setup
 
@@ -29,8 +29,8 @@ cd pdfgpt
 # 3. Install dependencies
 npm install
 
-# 4. Configure environment variables
-# Add your AI API key to .env
+# 4. Configure API Key
+[# Add your AI API key to js](https://github.com/ozgurcan0/pdfgpt/blob/f5c9dcdd9554592a25a426ebb42e8c4873494c18/src/services/gemini.js#L2)
 
 # 5. Run the development server
 npm run dev
