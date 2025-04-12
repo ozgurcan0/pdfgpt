@@ -14,7 +14,7 @@ A web-based application that uses artificial intelligence to generate and export
 ## 🛠️ Tech Stack
 
 - **Frontend**: React / Next.js / Tailwind CSS  
-- **Backend**: Node.js / Express / Python  
+- **Backend**: Node.js
 - **AI**: OpenAI GPT or local LLMs (optional support) 
 
 ## 🧪 Demo & Setup
@@ -34,3 +34,13 @@ npm install
 
 # 5. Run the development server
 npm run dev
+```
+
+![resim](https://github.com/user-attachments/assets/3400fb4f-adce-4f4f-befe-5df966a2fa86)
+
+![resim](https://github.com/user-attachments/assets/195cbd13-9c90-4b22-947c-8008b8872bf3)
+
+![resim](https://github.com/user-attachments/assets/aa72c263-5e26-4b2b-8466-e6dc2a85ac18)
+
+![resim](https://github.com/user-attachments/assets/f7e6333f-d8db-4486-a457-54186fdc0027)
+
